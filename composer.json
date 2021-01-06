@@ -28,12 +28,12 @@
         "sort-packages": true
     },
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.3.0",
         "ext-curl": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/core": "^8.9.0",
-        "drupal/core-composer-scaffold": "^8.9.0",
+        "drupal/core": "^9.1.0",
+        "drupal/core-composer-scaffold": "^9.1.0",
         "drupal/commerce": "^2.0",
         "drupal/search_api": "^1.0",
         "drupal/swiftmailer": "^2.0",
@@ -45,34 +45,13 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.9.0",
-        "zaporylie/composer-drupal-optimizations": "^1.1"
+        "drupal/core-dev": "^9.1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "autoload": {
-        "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ]
-    },
-    "scripts": {
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-        ],
-        "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
-    },
     "extra": {
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
