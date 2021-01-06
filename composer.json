@@ -31,7 +31,7 @@
         "php": ">=7.3.0",
         "ext-curl": "*",
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6.5",
+        "cweagans/composer-patches": "^1.7.0",
         "drupal/core": "^9.1.0",
         "drupal/core-composer-scaffold": "^9.1.0",
         "drupal/commerce": "^2.0",
