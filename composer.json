@@ -1,6 +1,6 @@
 {
-    "name": "drupalcommerce/project-base",
-    "description": "Commerce 2.x project template",
+    "name": "drupalcommerce/commerce-project",
+    "description": "Drupal Commerce project template",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
