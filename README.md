@@ -1,6 +1,6 @@
-# Commerce 2.x project template
+# Drupal Commerce project template
 
-Use [Composer](https://getcomposer.org/) to get Drupal + Commerce 2.x.
+Use [Composer](https://getcomposer.org/) to get Drupal + Commerce.
 
 Also look at [drupalcommerce/demo-project](https://github.com/drupalcommerce/demo-project)
 for a version with demo content.
@@ -16,7 +16,7 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project drupalcommerce/project-base some-dir --stability dev --no-interaction
+composer create-project drupalcommerce/commerce-project some-dir --stability dev --no-interaction
 ```
 
 Done! Use `composer require ...` to download additional modules and themes:
